@@ -8,10 +8,16 @@ $open-sans: 'Open Sans', sans-serif;
     font-family: $hind;
 }
 
+.App {
+    background-color: #141A1A;
+    color: #FFFFFF;
+}
+
 h {
     &1 {
         font-family: $open-sans;
         font-size: 67.34px;
+        color: #08BF9E;
     }
     &2 {
         font-family: $kanit;
@@ -28,6 +34,7 @@ h {
     &5 {
         font-family: $open-sans;
         font-size: 21.33px;
+        color: #ffffffd2;
     }
     p {
         font-family: $hind;
@@ -37,6 +44,15 @@ h {
         font-family: $kanit;
         font-size: 12px;
     }
+}
+
+#heroSection {
+    height: 90vh;
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
 }
 
 @for $i from 1 through 10 {
