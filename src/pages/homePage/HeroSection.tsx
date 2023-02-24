@@ -17,7 +17,7 @@ const HeroSection = () => {
         }} />
         </h3>
     </div>
-    <img src='/img/legoman-portfolio.png' alt='Lego space astronaut'/>
+    <img src='/img/legoman-portfolio.webp' alt='Lego space astronaut'/>
   </section>
   )
 }
