@@ -15,7 +15,7 @@ const HeroSection = () => {
                             strings: ['a Web Developer', 'a Full Stack Engineer', 'a Web Designer', 'a Full Stack Developer'],
                             autoStart: true,
                             loop: true,
-                            delay: 100
+                            delay: 120
                         }} />
                 </h3>
                 <span className='fade'>
@@ -29,6 +29,7 @@ const HeroSection = () => {
                             <img src='/img/linkedin-icon.svg' alt='linkedin profile' />
                         </IconButton>
                     </Tooltip>
+                    <button style={{marginLeft: '10px'}} id='download-cv'>Download CV</button>
                 </span>
             </div>
             <img id='header-img' className='fade' src='/img/legoman-portfolio.webp' alt='Lego space astronaut' />

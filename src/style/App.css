@@ -134,6 +134,47 @@ header {
   flex-direction: column;
   justify-content: space-around;
 }
+#heroSection #download-cv {
+  background-color: transparent;
+  border-radius: 8px;
+  color: #08BF9E;
+  border: 1px solid #08BF9E;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  background-color: transparent;
+  transition-duration: 0.3s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+#heroSection #download-cv:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #08BF9E;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  border-radius: 8px;
+}
+#heroSection #download-cv:hover {
+  color: #000000;
+}
+#heroSection #download-cv:hover:before {
+  transform: scaleX(1);
+}
 
 @media (max-width: 630px) {
   h1 {
