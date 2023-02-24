@@ -120,6 +120,7 @@ header {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  background: linear-gradient(131deg, rgb(9, 66, 57) 0%, rgb(0, 0, 0) 50%, rgb(32, 23, 9) 100%);
 }
 #heroSection #header-img {
   width: calc(130px + 15%);

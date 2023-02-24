@@ -70,6 +70,7 @@ header {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    background: linear-gradient(131deg, rgba(9,66,57,1) 0%, rgba(0,0,0,1) 50%, rgba(32,23,9,1) 100%);
     & #header-img {
         width: calc(130px + 15%);
         border-radius: 100%;
