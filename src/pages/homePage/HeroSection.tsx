@@ -15,7 +15,7 @@ const HeroSection = () => {
                             strings: ['a Web Developer', 'a Full Stack Engineer', 'a Web Designer', 'a Full Stack Developer'],
                             autoStart: true,
                             loop: true,
-                            delay: 350
+                            delay: 100
                         }} />
                 </h3>
                 <span className='fade'>
