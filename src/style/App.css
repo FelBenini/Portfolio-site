@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Hind&family=Kanit:wght@100&family=Open+Sans:wght@500&display=swap");
+* {
+  font-family: "Hind", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 67.34px;
+}
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 50.52px;
+}
+h3 {
+  font-family: "Hind", sans-serif;
+  font-size: 37.9px;
+}
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28.43px;
+}
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 21.33px;
+}
+h p {
+  font-family: "Hind", sans-serif;
+  font-size: 16px;
+}
+h6 {
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.myClass:nth-child(1n) {
+  animation-delay: 0.5s;
+}
+
+.myClass:nth-child(2n) {
+  animation-delay: 1s;
+}
+
+.myClass:nth-child(3n) {
+  animation-delay: 1.5s;
+}
+
+.myClass:nth-child(4n) {
+  animation-delay: 2s;
+}
+
+.myClass:nth-child(5n) {
+  animation-delay: 2.5s;
+}
+
+.myClass:nth-child(6n) {
+  animation-delay: 3s;
+}
+
+.myClass:nth-child(7n) {
+  animation-delay: 3.5s;
+}
+
+.myClass:nth-child(8n) {
+  animation-delay: 4s;
+}
+
+.myClass:nth-child(9n) {
+  animation-delay: 4.5s;
+}
+
+.myClass:nth-child(10n) {
+  animation-delay: 5s;
+}
+
+.myClass {
+  animation: FadeIn 1s linear;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  85% {
+    opacity: 1;
+    transform: scale(1.05);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: scale(1);
   }
-}
+}/*# sourceMappingURL=App.css.map */

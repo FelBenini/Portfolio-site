@@ -4,19 +4,13 @@ import './style/App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section id="heroSection">
+        <div id="heroSectionText">
+          <h5>Hey there, I am</h5>
+          <h1>Felipe Benini</h1>
+          <h3>a Web Developer</h3>
+        </div>
+      </section>
     </div>
   );
 }
