@@ -1,14 +1,15 @@
 @for $i from 1 through 10 {
     .fade:nth-child(#{$i}n) {
-        animation-delay: #{$i * 0.5}s;
+        animation-delay: #{$i * 0.3}s;
     }
 }
 
 .fade {
     transform: translateX(15px);
     opacity: 0;
-    animation: FadeIn 1s;
+    animation: FadeIn 1s cubic-bezier(1,.02,.27,.57);
     animation-fill-mode: forwards;
+    
 }
 
 @keyframes FadeIn { 

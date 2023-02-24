@@ -1,48 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&family=Kanit:wght@100&family=Open+Sans:wght@500&display=swap");
 .fade:nth-child(1n) {
-  animation-delay: 0.5s;
+  animation-delay: 0.3s;
 }
 
 .fade:nth-child(2n) {
-  animation-delay: 1s;
+  animation-delay: 0.6s;
 }
 
 .fade:nth-child(3n) {
-  animation-delay: 1.5s;
+  animation-delay: 0.9s;
 }
 
 .fade:nth-child(4n) {
-  animation-delay: 2s;
+  animation-delay: 1.2s;
 }
 
 .fade:nth-child(5n) {
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }
 
 .fade:nth-child(6n) {
-  animation-delay: 3s;
+  animation-delay: 1.8s;
 }
 
 .fade:nth-child(7n) {
-  animation-delay: 3.5s;
+  animation-delay: 2.1s;
 }
 
 .fade:nth-child(8n) {
-  animation-delay: 4s;
+  animation-delay: 2.4s;
 }
 
 .fade:nth-child(9n) {
-  animation-delay: 4.5s;
+  animation-delay: 2.7s;
 }
 
 .fade:nth-child(10n) {
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 
 .fade {
   transform: translateX(15px);
   opacity: 0;
-  animation: FadeIn 1s;
+  animation: FadeIn 1s cubic-bezier(1, 0.02, 0.27, 0.57);
   animation-fill-mode: forwards;
 }
 
