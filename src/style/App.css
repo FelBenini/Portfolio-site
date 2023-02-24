@@ -120,7 +120,7 @@ header {
   align-items: center;
   flex-direction: row;
 }
-#heroSection img {
+#heroSection #header-img {
   width: 300px;
   border-radius: 100%;
   outline: 5px solid rgba(209, 247, 240, 0.7411764706);
