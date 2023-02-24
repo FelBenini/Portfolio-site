@@ -1,4 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&family=Kanit:wght@100&family=Open+Sans:wght@500&display=swap");
+.fade:nth-child(1n) {
+  animation-delay: 0.5s;
+}
+
+.fade:nth-child(2n) {
+  animation-delay: 1s;
+}
+
+.fade:nth-child(3n) {
+  animation-delay: 1.5s;
+}
+
+.fade:nth-child(4n) {
+  animation-delay: 2s;
+}
+
+.fade:nth-child(5n) {
+  animation-delay: 2.5s;
+}
+
+.fade:nth-child(6n) {
+  animation-delay: 3s;
+}
+
+.fade:nth-child(7n) {
+  animation-delay: 3.5s;
+}
+
+.fade:nth-child(8n) {
+  animation-delay: 4s;
+}
+
+.fade:nth-child(9n) {
+  animation-delay: 4.5s;
+}
+
+.fade:nth-child(10n) {
+  animation-delay: 5s;
+}
+
+.fade {
+  transform: translateX(15px);
+  opacity: 0;
+  animation: FadeIn 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
 * {
   font-family: "Hind", sans-serif;
   margin: 0;
@@ -30,7 +87,7 @@ h4 {
 h5 {
   font-family: "Open Sans", sans-serif;
   font-size: 21.33px;
-  color: #ffffffe5;
+  color: rgba(255, 255, 255, 0.8235294118);
 }
 h p {
   font-family: "Hind", sans-serif;
@@ -39,6 +96,20 @@ h p {
 h6 {
   font-family: "Kanit", sans-serif;
   font-size: 12px;
+}
+
+header {
+  width: calc(100% - 60px);
+  background-color: rgba(2, 3, 3, 0.4392156863);
+  height: 60px;
+  margin-top: 12px;
+  margin-left: 30px;
+  position: fixed;
+  border: 1.4px solid rgba(162, 199, 199, 0.3411764706);
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  z-index: 100;
 }
 
 #heroSection {
@@ -60,62 +131,4 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.myClass:nth-child(1n) {
-  animation-delay: 0.5s;
-}
-
-.myClass:nth-child(2n) {
-  animation-delay: 1s;
-}
-
-.myClass:nth-child(3n) {
-  animation-delay: 1.5s;
-}
-
-.myClass:nth-child(4n) {
-  animation-delay: 2s;
-}
-
-.myClass:nth-child(5n) {
-  animation-delay: 2.5s;
-}
-
-.myClass:nth-child(6n) {
-  animation-delay: 3s;
-}
-
-.myClass:nth-child(7n) {
-  animation-delay: 3.5s;
-}
-
-.myClass:nth-child(8n) {
-  animation-delay: 4s;
-}
-
-.myClass:nth-child(9n) {
-  animation-delay: 4.5s;
-}
-
-.myClass:nth-child(10n) {
-  animation-delay: 5s;
-}
-
-.myClass {
-  animation: FadeIn 1s linear;
-}
-
-@keyframes FadeIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.1);
-  }
-  85% {
-    opacity: 1;
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
 }/*# sourceMappingURL=App.css.map */

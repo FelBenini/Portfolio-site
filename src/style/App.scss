@@ -1,3 +1,4 @@
+@use 'fadeIn';
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Kanit:wght@100&family=Open+Sans:wght@500&display=swap');
 
 $hind: 'Hind', sans-serif;
@@ -6,6 +7,7 @@ $open-sans: 'Open Sans', sans-serif;
 
 * {
     font-family: $hind;
+    margin: 0;
 }
 
 .App {
@@ -47,6 +49,19 @@ h {
     }
 }
 
+header {
+    width: calc(100% - 60px);
+    background-color: #02030370;
+    height: 60px;
+    margin-top: 12px;
+    margin-left: 30px;
+    position: fixed;
+    border: 1.4px solid #a2c7c757;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
 #heroSection {
     height: 100%;
     width: 100%;
@@ -67,28 +82,3 @@ h {
         justify-content: space-around;
     }
 }
-
-@for $i from 1 through 10 {
-    .myClass:nth-child(#{$i}n) {
-        animation-delay: #{$i * 0.5}s;
-    }
-}
-
-.myClass {
-    animation: FadeIn 1s linear;
-}
-
-@keyframes FadeIn { 
-    0% {
-      opacity: 0;
-      transform: scale(.1);
-    }
-  
-    85% {
-      opacity: 1;
-      transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }

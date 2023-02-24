@@ -5,6 +5,7 @@ import Homepage from './pages/homePage/Homepage';
 function App() {
   return (
     <div className="App">
+      <header></header>
       <Homepage/>
     </div>
   );

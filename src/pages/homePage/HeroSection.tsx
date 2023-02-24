@@ -5,9 +5,9 @@ const HeroSection = () => {
   return (
     <section id="heroSection">
     <div id="heroSectionText">
-      <h5>Hey there, I am</h5>
-      <h1>Felipe Benini</h1>
-      <h3>
+      <h5 className='fade'>Hey there, I am</h5>
+      <h1 className='fade'>Felipe Benini</h1>
+      <h3 className='fade'>
       <Typewriter
         options={{
           strings: ['a Web Developer', 'a Full Stack Engineer', 'a Web Designer', 'a Full Stack Developer'],
@@ -17,7 +17,7 @@ const HeroSection = () => {
         }} />
         </h3>
     </div>
-    <img src='/img/legoman-portfolio.webp' alt='Lego space astronaut'/>
+    <img className='fade' src='/img/legoman-portfolio.webp' alt='Lego space astronaut'/>
   </section>
   )
 }
