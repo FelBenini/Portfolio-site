@@ -11,6 +11,7 @@ $open-sans: 'Open Sans', sans-serif;
 .App {
     background-color: #141A1A;
     color: #FFFFFF;
+    height: 100%;
 }
 
 h {
@@ -47,12 +48,24 @@ h {
 }
 
 #heroSection {
-    height: 90vh;
-    width: calc(100% - 50px);
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    & img {
+        width: 300px;
+        border-radius: 100%;
+        outline: 5px solid #d1f7f0bd;
+        box-shadow: 0px 10px 50px #000000b6;
+    }
+    & #heroSectionText {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 @for $i from 1 through 10 {

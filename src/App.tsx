@@ -15,10 +15,11 @@ function App() {
               strings: ['a Web Developer', 'a Full Stack Engineer', 'a Web Designer', 'a Full Stack Developer'],
               autoStart: true,
               loop: true,
-              delay: 200
+              delay: 350
             }} />
             </h3>
         </div>
+        <img src='/img/legoman-portfolio.png' alt='Lego space astronaut'/>
       </section>
     </div>
   );
