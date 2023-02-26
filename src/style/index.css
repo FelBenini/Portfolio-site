@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #141A1A;
   height: 100%;
+  background: linear-gradient(131deg, rgb(8, 36, 32) 0%, rgb(0, 0, 0) 50%, rgb(24, 18, 8) 100%);
 }
 
 html {
@@ -15,6 +16,7 @@ html {
 #root {
   height: 100%;
   overflow-x: hidden;
+  background: linear-gradient(131deg, rgb(8, 36, 32) 0%, rgb(0, 0, 0) 50%, rgb(24, 18, 8) 100%);
 }
 
 code {
