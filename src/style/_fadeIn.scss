@@ -1,6 +1,6 @@
 @for $i from 1 through 10 {
     .fade:nth-child(#{$i}n) {
-        animation-delay: #{$i * 0.2}s;
+        animation-delay: #{$i * 0.08}s;
     }
 }
 

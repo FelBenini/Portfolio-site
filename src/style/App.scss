@@ -1,4 +1,5 @@
 @use 'fadeIn';
+@use 'scrollbar';
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Kanit:wght@100&family=Open+Sans:wght@500&display=swap');
 
 $hind: 'Hind', sans-serif;
@@ -202,6 +203,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     align-items: center;
     & h3 {
         align-self: flex-start;

@@ -1,7 +1,6 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+function Header() {
   return (
     <header>
         <Link id='logo' to='/'><img src='/img/logo.webp' alt='logo'/></Link>

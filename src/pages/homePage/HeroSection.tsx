@@ -1,4 +1,3 @@
-import React from 'react'
 import Typewriter from 'typewriter-effect'
 import { IconButton } from '@mui/material'
 import Tooltip from '@mui/material/Tooltip'
