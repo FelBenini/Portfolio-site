@@ -9,6 +9,7 @@ $open-sans: 'Open Sans', sans-serif;
 * {
     font-family: $hind;
     margin: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 em {
@@ -78,7 +79,7 @@ header {
     justify-content: space-between;
     padding: 0px 24px;
     & #logo {
-        height: 90%;
+        height: 80%;
     }
     & img {
         height: 100%;
@@ -289,9 +290,16 @@ footer {
     }
     header {
         width: calc(100% - 30px);
-        margin-left: 15px;
-        margin-top: 8px;
+        margin-left: 5px;
+        margin-top: 4px;
         height: 50px;
+        padding: 0px 10px;
+        & div h5 {
+            margin: 0px;
+            margin-right: 12px;
+            font-size: 16px;
+            padding: 0px;
+        }
     }
     #aboutSection {
         height: fit-content;

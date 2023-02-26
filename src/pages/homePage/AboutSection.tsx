@@ -9,7 +9,7 @@ const AboutSection = () => {
         <TagCloud
           options={(w: Window & typeof globalThis) => ({
             radius: Math.min(350, w.innerWidth, w.innerHeight) / 2,
-            maxSpeed: "slow",
+            maxSpeed: "normal",
           })}
           onClick={(tag: string, ev: MouseEvent) => alert(tag)}
           onClickOptions={{ passive: true }}>
