@@ -269,8 +269,8 @@ header {
   }
   #heroSection {
     flex-direction: column;
-    height: calc(100% - 80px);
-    padding-top: 80px;
+    height: calc(100% - 60px);
+    padding-top: 60px;
   }
   #heroSection #header-img {
     width: 180px;
@@ -284,6 +284,7 @@ header {
   header {
     width: calc(100% - 30px);
     margin-left: 15px;
+    margin-top: 8px;
     height: 50px;
   }
   #aboutSection {
@@ -305,6 +306,8 @@ header {
   #aboutSection p {
     text-align: center;
     width: 90%;
+    line-height: 140%;
+    margin-bottom: 30px;
   }
   #aboutSection .tagcloud {
     transform: scale(0.8);

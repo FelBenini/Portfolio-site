@@ -26,7 +26,10 @@ const AboutSection = () => {
             "jQuery",
             "JSON",
             "Express",
-            "Git"
+            "Git",
+            "SASS",
+            "HTML5",
+            "CSS3"
           ]}
         </TagCloud>
       </div>
