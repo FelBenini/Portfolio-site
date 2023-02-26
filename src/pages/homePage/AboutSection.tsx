@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section id='aboutSection'>
       <h3><img src='/img/user-icon.svg' alt='User Icon'/>About me</h3>
       <div className='textPart'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, minima aliquam numquam expedita provident sapiente incidunt perferendis totam iste, tempora, cupiditate aspernatur obcaecati iure impedit unde beatae voluptas esse ipsam. Molestias, error culpa atque a molestiae veniam odio, reprehenderit eius rerum ex cumque modi sapiente inventore? Nobis delectus reiciendis laudantium!</p>
+        <p>Hello, my name is <em>Felipe Benini</em> and I am a <em>Full Stack developer</em> with skills in programming languages such as JavaScript, TypeScript, PHP, NodeJS, and frameworks such as React, jQuery, and Express. My expertise also includes working with databases such as MySQL and MongoDB, in addition to the creation and implementation of RESTful APIs and the integration of applications with external APIs.</p>
         <TagCloud
           options={(w: Window & typeof globalThis) => ({
             radius: Math.min(350, w.innerWidth, w.innerHeight) / 2,

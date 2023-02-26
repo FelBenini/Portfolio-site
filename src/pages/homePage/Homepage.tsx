@@ -1,5 +1,6 @@
 import HeroSection from './HeroSection'
 import AboutSection from './AboutSection'
+import Footer from '../../components/Footer'
 
 
 const Homepage = () => {
@@ -8,6 +9,7 @@ const Homepage = () => {
     <HeroSection/>
     <span id='scroll-down' className='fade'><p>Scroll Down</p><p id='arrow'>v</p></span>
     <AboutSection/>
+    <Footer/>
     </div>
   )
 }
