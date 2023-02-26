@@ -120,7 +120,7 @@ header {
 footer {
     display: flex;
     justify-content: center;
-    height: 42px;
+    height: 56px;
     align-items: center;
     color: #ffffffa9;
     background: #1c2b2849;
@@ -287,8 +287,10 @@ footer {
             width: 250px;
             display: flex;
             align-items: center;
+            justify-content: space-between;
             flex-direction: column;
             text-align: center;
+            padding-bottom: 32px;
             & h5 {
                 margin-bottom: 16px;
                 margin-top: 8px;
@@ -300,7 +302,8 @@ footer {
             }
             & p {
                 margin-top: 12px;
-                color: #ffffffe0;
+                color: #ffffff;
+                opacity: 0.9;
                 & img {
                     width: 20px;
                     margin-bottom: -4px;
@@ -410,6 +413,21 @@ footer {
 
         & .tagcloud {
             transform: scale(0.8);
+        }
+    }
+    #skillsSection {
+        padding: 0px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 24px;
+        & h3 {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        & #skills-wrapper div {
+            margin-top: 24px;
         }
     }
 }
