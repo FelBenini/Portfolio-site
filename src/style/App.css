@@ -167,13 +167,14 @@ header {
   transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 #heroSection #download-cv:hover {
   color: #000000;
 }
 #heroSection #download-cv:hover:before {
   transform: scaleX(1);
+  border-radius: 6px;
 }
 
 #scroll-down {
@@ -200,6 +201,38 @@ header {
     transform: translateY(-8px);
   }
 }
+#aboutSection {
+  margin-top: 30px;
+  height: 60%;
+  width: calc(100% - 60px);
+  padding: 30px 60px;
+  background: linear-gradient(to bottom, #121817, #070a0a);
+  border-top: 1.2px solid #1c2b28;
+  border-bottom: 1.2px solid #1c2b28;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#aboutSection h3 {
+  align-self: flex-start;
+  margin-bottom: 30px;
+}
+#aboutSection .textPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+#aboutSection .textPart div {
+  margin-top: -10px;
+}
+#aboutSection p {
+  width: 350px;
+  line-height: 200%;
+  color: rgba(255, 255, 255, 0.7882352941);
+}
+
 @media (max-width: 630px) {
   h1 {
     font-size: 48.83px;
