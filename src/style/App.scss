@@ -183,15 +183,16 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
+        width: 90%;
         flex-wrap: wrap;
-        & div {
-            margin-top: -10px;
+        & .tagcloud {
+            margin-top: -30px;
         }
     }
     & p {
         width: calc(250px + 15%);
         line-height: 200%;
+        margin-top: 10px;
         color: #ffffffc9;
     }
 }
