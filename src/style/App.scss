@@ -412,6 +412,25 @@ footer {
     }
 }
 
+#aboutPage {
+    min-height: calc(100% - 100px);
+    padding-top: 100px;
+    & div {
+        display: flex;
+        height: 90%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    & div p {
+        width: 450px;
+        margin-bottom: 24px;
+    }
+    & h2 {
+        margin-left: 40px;
+        margin-bottom: 60px;
+    }
+}
+
 //Responsivity
 
 @media (max-width: 630px) {
