@@ -3,6 +3,7 @@ import AboutSection from './AboutSection'
 import Footer from '../../components/Footer'
 import SkillsSection from './SkillsSection'
 import ProjectsSection from './ProjectsSection'
+import Contact from '../../components/Contact'
 
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
     <AboutSection/>
     <SkillsSection/>
     <ProjectsSection/>
+    <Contact/>
     <Footer/>
     </div>
   )
