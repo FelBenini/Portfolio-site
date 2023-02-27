@@ -5,6 +5,9 @@ const SkillsSection = () => {
     <section id='skillsSection'>
         <h3>My Skills</h3>
         <div id='skills-wrapper'>
+          <p>
+          I have a strong problem-solving ability and teamwork skills. Additionally, I am passionate about learning and coding, and I always strive to stay up-to-date with the latest trends and technologies in the market. My goal is to grow professionally by developing efficient and innovative solutions that can improve people's lives. I am looking for the right opportunity to demonstrate my skills and achieve my objectives.
+          </p>
             <div>
                 <h5><img src='/img/rocket.svg' alt='Rocket icon'/>Front-end</h5>
                 <p><img src='/img/html-icon.svg' alt='HTML 5 Icon'/>HTML 5</p>
