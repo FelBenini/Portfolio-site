@@ -358,19 +358,19 @@ footer {
 #contactSection {
     display: flex;
     justify-content: space-around;
-    height: 60%;
+    min-height: 60%;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 40px;
     & h3 {
         justify-self: flex-start;
         width: 100%;
-        padding-left: 60px;
-        padding-top: 30px;
+        margin-left: 60px;
+        margin-top: 30px;
         margin-bottom: 20px;
     }
     & img {
-        height: 240px;
+        height: calc(120px + 10vw);
     }
 
     & div {
@@ -543,6 +543,15 @@ footer {
         & #cards .card {
             margin-top: 10px;
         }
+    }
+    #contactSection {
+        & h3 {
+        margin-left: 10px;
+        width: 100%;
+        & img {
+            height: 100px;
+        }
+    }
     }
 }
 

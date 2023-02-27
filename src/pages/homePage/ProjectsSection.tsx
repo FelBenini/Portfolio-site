@@ -22,7 +22,7 @@ const ProjectsSection = () => {
                 <Card name='Todo App' img='/img/todo-app-img.webp' description='A task manager made with React, TypeScript, cookies and other libraries like Material UI.' github='https://github.com/FelBenini/todo-app' livedemo={true} livedemolink='https://todo-app-felbenini.vercel.app/' />
                 <Card name='QR Code Generator' img='https://felipe-benini.netlify.app/img/project_4.png' description='A QR Code generator made with HTML 5, CSS 3, JavaScript, the jQuery library and an API.' github='https://github.com/FelBenini/qr-code-generator' livedemo={true} livedemolink='https://liveqr-code-generator.netlify.app/' />
             </div>
-            <Link to='/projects' style={{width: '180px', margin: '36px auto', textDecoration: 'none'}}><Button variant="outlined" color='secondary'>More Projects</Button></Link>
+            <Link to='/projects' style={{width: '180px', margin: '36px auto', textDecoration: 'none'}}><Button sx={{width: '180px'}} variant="outlined" color='secondary'>More Projects</Button></Link>
         </section>
     )
 }

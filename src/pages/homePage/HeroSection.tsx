@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <h3 className='fade'>
                     <Typewriter
                         options={{
-                            strings: ['a Web Developer', 'a Full Stack Engineer', 'a Web Designer', 'a Full Stack Developer'],
+                            strings: ['a Web Developer', 'a Full Stack Engineer', 'a Programmer', 'a Full Stack Developer'],
                             autoStart: true,
                             loop: true,
                             delay: 120
