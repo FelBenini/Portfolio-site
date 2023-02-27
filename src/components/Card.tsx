@@ -18,6 +18,7 @@ const Card = (props: cardProps) => {
                         <i className="fa-duotone fa-apartment"></i>
                         <div className="card-info-title">
                             <h5>{props.name}</h5>
+                            <img src={props.img} alt="Project"/>
                             <p>{props.description}</p>
                         </div>
                     </div>

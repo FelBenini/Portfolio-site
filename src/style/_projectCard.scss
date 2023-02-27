@@ -23,7 +23,7 @@
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.644);
     cursor: pointer;
     display: flex;
-    height: 260px;
+    height: 320px;
     flex-direction: column;
     position: relative;
     width: 300px;
@@ -81,8 +81,13 @@
     & h5 {
         color: #FFFFFF;
         opacity: 0.9;
+        margin-bottom: 12px;
     }
     & p {
         opacity: 0.75;
+    }
+    & img {
+        width: 240px;
+        border-radius: 8px;
     }
   }
