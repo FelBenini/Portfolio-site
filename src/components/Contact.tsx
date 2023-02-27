@@ -10,7 +10,7 @@ const Contact = () => {
             <a href='mailto:felbenini@gmail.com'><h5>felbenini@gmail.com</h5></a>
         </span>
         <span>
-            <p>Phone:</p>
+            <p><img src='/img/phone-icon.svg' alt='Phone icon'/>Phone:</p>
             <h5>+55 (11) 94005-8451</h5>
         </span>
         <span>
