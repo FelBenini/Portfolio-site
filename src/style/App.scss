@@ -1,5 +1,6 @@
 @use 'fadeIn';
 @use 'scrollbar';
+@use 'projectCard';
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Kanit:wght@100&family=Open+Sans:wght@500&display=swap');
 
 $hind: 'Hind', sans-serif;
@@ -315,6 +316,19 @@ footer {
 
 }
 
+#projectSection {
+    background-color: #11100f;
+    padding: 30px 0px;
+    border-top: 1.2px solid #1c2b28;
+    border-bottom: 1.2px solid #1c2b28;
+    & h3 {
+        justify-self: flex-start;
+        align-self: flex-start;
+        margin-left: 60px;
+        margin-bottom: 15px;
+    }
+}
+
 //Responsivity
 
 @media (max-width: 630px) {
@@ -428,6 +442,14 @@ footer {
         }
         & #skills-wrapper div {
             margin-top: 24px;
+        }
+    }
+    #projectSection {
+        & h3 {
+            margin-left: 10px;
+        }
+        & #cards .card {
+            margin-top: 10px;
         }
     }
 }
