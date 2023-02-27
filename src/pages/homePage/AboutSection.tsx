@@ -28,7 +28,8 @@ const AboutSection = () => {
             "Git",
             "SASS",
             "HTML5",
-            "CSS3"
+            "CSS3",
+            "npm"
           ]}
         </TagCloud>
       </div>
