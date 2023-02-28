@@ -4,9 +4,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Aboutpage from './pages/aboutPage/Aboutpage';
 import PortfolioPage from './pages/portfolioPage/PortfolioPage';
+import ScrollToTop from './components/scrollToTop';
+
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <Header />
       <Routes>
         <Route path="" element={<Homepage/>} />
