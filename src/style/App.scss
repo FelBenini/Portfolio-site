@@ -277,6 +277,7 @@ footer {
 #skillsSection {
     width: calc(100% - 60px);
     padding: 30px 60px;
+
     & p {
         width: 300px;
         justify-self: center;
@@ -287,6 +288,7 @@ footer {
         margin-bottom: 12px;
         color: rgba(255, 255, 255, 0.7882352941);
     }
+
     & #skills-wrapper {
         width: 100%;
         display: flex;
@@ -362,6 +364,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 120px;
+
     & h3 {
         justify-self: flex-start;
         width: 100%;
@@ -369,6 +372,7 @@ footer {
         margin-top: 30px;
         margin-bottom: 20px;
     }
+
     & #email-icon {
         height: calc(120px + 10vw);
     }
@@ -415,6 +419,7 @@ footer {
 #aboutPage {
     min-height: calc(100% - 100px);
     padding-top: 120px;
+
     & div {
         display: flex;
         height: 90%;
@@ -422,10 +427,12 @@ footer {
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
     & div p {
         width: 450px;
         margin-bottom: 24px;
     }
+
     & h2 {
         margin-left: 40px;
         margin-bottom: 60px;
@@ -434,6 +441,16 @@ footer {
 
 #portfolio-page {
     padding-top: 100px;
+    & #cards {
+        width: 80%;
+        & .card {
+            margin: 12px;
+            margin: 6px;
+        }
+    }
+    & footer {
+            margin-top: 24px;
+    }
 }
 
 //Responsivity
@@ -544,6 +561,7 @@ footer {
         flex-direction: column;
         width: 100%;
         padding-bottom: 24px;
+
         & p {
             width: 80%;
             text-align: center;
@@ -569,15 +587,18 @@ footer {
             margin-top: 10px;
         }
     }
+
     #contactSection {
         & h3 {
-        margin-left: 10px;
-        width: 100%;
-        & img {
-            height: 100px;
+            margin-left: 10px;
+            width: 100%;
+
+            & img {
+                height: 100px;
+            }
         }
     }
-    }
+
     #aboutPage div p {
         width: 90%;
         text-align: center;

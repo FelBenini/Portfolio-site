@@ -11,7 +11,7 @@ interface cardProps {
 
 const Card = (props: cardProps) => {
     return (
-        <div className="card">
+        <div className="card fade">
             <div className="card-content">
                 <div className="card-image">
                 </div>
