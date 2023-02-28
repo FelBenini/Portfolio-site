@@ -32,7 +32,9 @@ const HeroSection = () => {
                         </IconButton>
                     </Tooltip>
                     </a>
+                    <a href="/img/curriculum.pdf" download>
                     <button style={{marginLeft: '10px'}} id='download-cv'>Download CV</button>
+                    </a>
                 </span>
             </div>
             <img id='header-img' className='fade' src='/img/legoman-portfolio.webp' alt='Lego space astronaut' />
