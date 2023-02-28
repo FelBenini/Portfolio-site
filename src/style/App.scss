@@ -417,8 +417,11 @@ footer {
 }
 
 #aboutPage {
-    min-height: calc(100% - 100px);
-    padding-top: 120px;
+    min-height: calc(100% - 80px);
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     & div {
         display: flex;
@@ -435,12 +438,16 @@ footer {
 
     & h2 {
         margin-left: 40px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 }
 
 #portfolio-page {
     padding-top: 100px;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
     & #cards {
         width: 80%;
         & .card {
