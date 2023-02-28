@@ -18,6 +18,7 @@ const CloudTag = (props: {classes: string}) => {
             "JavaScript",
             "PHP",
             "MySQL",
+            "SQL",
             "NodeJS",
             "MongoDB",
             "jQuery",
