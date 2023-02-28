@@ -369,7 +369,7 @@ footer {
         margin-top: 30px;
         margin-bottom: 20px;
     }
-    & img {
+    & #email-icon {
         height: calc(120px + 10vw);
     }
 
@@ -414,12 +414,13 @@ footer {
 
 #aboutPage {
     min-height: calc(100% - 100px);
-    padding-top: 100px;
+    padding-top: 120px;
     & div {
         display: flex;
         height: 90%;
         align-items: center;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     & div p {
         width: 450px;
@@ -572,6 +573,10 @@ footer {
             height: 100px;
         }
     }
+    }
+    #aboutPage div p {
+        width: 90%;
+        text-align: center;
     }
 }
 

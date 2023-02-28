@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section id='contactSection'>
-        <h3>Contact Info</h3>
+        <h3><img src='/img/email-icon.svg' alt='E-mail icon'/>Contact Info</h3>
         <div>
         <span>
             <p><img src='img/email-icon.svg' alt='email icon'/>E-mail:</p>
@@ -18,7 +18,7 @@ const Contact = () => {
             <a href='https://www.linkedin.com/in/felipe-benini-88a23b24a/' target='blank'><h5>Felipe Benini</h5></a>
         </span>
         </div>
-        <img src='/img/email-img.webp' alt='E-mail icon'/>
+        <img id='email-icon' src='/img/email-img.webp' alt='E-mail icon'/>
     </section>
   )
 }
