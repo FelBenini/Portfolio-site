@@ -21,13 +21,11 @@ const CloudTag = (props: {classes: string}) => {
             "NodeJS",
             "MongoDB",
             "jQuery",
-            "JSON",
             "Express",
             "Git",
             "SASS",
             "HTML5",
-            "CSS3",
-            "npm"
+            "CSS3"
           ]}
         </TagCloud>
     </div>
