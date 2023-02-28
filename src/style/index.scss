@@ -9,6 +9,8 @@ body {
   height: 100%;
   background: linear-gradient(131deg, rgb(8, 36, 32) 0%, rgba(0,0,0,1) 50%, rgb(24, 18, 8) 100%);
   overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 html {
@@ -18,6 +20,8 @@ html {
 #root {
   height: 100%;
   background: linear-gradient(131deg, rgb(8, 36, 32) 0%, rgba(0,0,0,1) 50%, rgb(24, 18, 8) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
