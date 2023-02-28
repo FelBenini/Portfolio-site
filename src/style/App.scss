@@ -458,6 +458,9 @@ footer {
     & footer {
             margin-top: 24px;
     }
+    & .fade {
+        transform: none;
+    }
 }
 
 //Responsivity
