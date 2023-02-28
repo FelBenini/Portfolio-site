@@ -75,7 +75,7 @@ h {
 }
 
 header {
-    width: calc(100% - 60px - 48px);
+    width: calc(100vw - 60px - 48px);
     background-color: #02030352;
     height: 60px;
     margin-top: 12px;
@@ -132,7 +132,7 @@ footer {
 
 #heroSection {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -238,7 +238,7 @@ footer {
 #aboutSection {
     margin-top: 30px;
     height: 70%;
-    width: calc(100% - 60px);
+    width: calc(100vw - 60px);
     padding: 30px 60px;
     background: linear-gradient(to bottom left, #121817, #070a0a);
     border-top: 1.2px solid #1c2b28;
@@ -275,7 +275,7 @@ footer {
 }
 
 #skillsSection {
-    width: calc(100% - 60px);
+    width: calc(100vw - 60px);
     padding: 30px 60px;
 
     & p {
@@ -521,8 +521,8 @@ footer {
     }
 
     header {
-        width: calc(100vw - 40px);
-        margin-left: 10px;
+        width: calc(90vw - 40px);
+        margin-left: 20px;
         margin-top: 4px;
         height: 50px;
         padding: 0px 10px;
@@ -538,7 +538,7 @@ footer {
     #aboutSection {
         height: fit-content;
         padding: 8px 12px;
-        width: calc(100% - 16px);
+        width: calc(100vw - 36px);
         align-items: center;
         padding-top: 20px;
 
@@ -549,12 +549,12 @@ footer {
         & .textPart {
             justify-content: center;
             align-items: center;
-            width: 100%;
+            width: 100vw;
         }
 
         & p {
             text-align: center;
-            width: 90%;
+            width: 90vw;
             line-height: 140%;
             margin-bottom: 30px;
         }
@@ -569,11 +569,11 @@ footer {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         padding-bottom: 24px;
 
         & p {
-            width: 80%;
+            width: 80vw;
             text-align: center;
             line-height: 140%;
         }
@@ -601,17 +601,17 @@ footer {
     #contactSection {
         & h3 {
             margin-left: 10px;
-            width: 100%;
+            width: 100vw;
 
             & img {
-                height: 100px;
+                height: 34px;
             }
         }
     }
 
     #aboutPage {
         & .tagcloud {
-            width: 100%;
+            width: 100vw;
             transform: scale(0.8);
         }
         & div p {
